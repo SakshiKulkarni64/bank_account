@@ -1,6 +1,6 @@
 public class BankService {
 
-    // Nested class (can be public or private, doesn't matter for functionality)
+    
     static class BankAccount {
         private double balance;
 
@@ -30,14 +30,14 @@ public class BankService {
         }
     }
 
-    // The main entry point
+
     public static void main(String[] args) {
-        // Create an instance of the BankAccount class
+        
         BankAccount acc = new BankAccount(6000);
         
         System.out.println("Initial Balance: " + acc.getBalance());
 
-        // Perform operations
+       
         acc.deposit(7000);
         System.out.println("Balance after deposit of 500: " + acc.getBalance());
 
